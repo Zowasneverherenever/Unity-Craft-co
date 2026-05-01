@@ -1,0 +1,11 @@
+body{
+  margin:0;
+  padding:0;
+  font-family:Palatino;
+  background-image:url('https://i.ibb.co/G3xvP59S/2c551281768273ba1943ddb478cc21f5.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  animation:riseUp 0.8s ease-out;
+}
+
