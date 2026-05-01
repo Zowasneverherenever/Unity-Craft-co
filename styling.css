@@ -1,0 +1,45 @@
+body{
+  margin:0;
+  padding:0;
+  font-family:Palatino;
+  background-image:url(https://i.ibb.co/2YqQdb52/93dc11f2f0fe3fa8c0ee7bb2a8f29f51.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  animation:riseUp 0.8s ease-out;
+}
+.container{
+  animation:riseUp 0.8s ease-out;
+}
+@keyframes riseUp{
+  from{
+    opacity:0;
+    transform:translateY(30px);
+  }
+  to{
+    opacity:1;
+    transform:translateY(0);
+  }
+}
+h1 {
+  color:green;
+  text-align: center;
+  text-shadow: 2px 3px 2px #654321 ;
+}
+.box {
+  text-align:center;
+    color:black;
+    border:2px solid black;
+    border-radius:15px;
+    padding:10px;
+    background-color:rgba(255,255,255,0.2);
+   
+  }
+.image-line {
+  display: flex;
+  gap: 10px;
+  justify-content:center;
+}
+.image-line img {
+  width: 150px;
+  height: auto;
